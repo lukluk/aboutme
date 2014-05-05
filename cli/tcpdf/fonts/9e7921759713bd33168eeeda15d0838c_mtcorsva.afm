@@ -1,0 +1,99 @@
+StartFontMetrics 4.1
+FontName MonotypeCorsiva
+FullName Monotype Corsiva
+Notice Digitized data copyright The Monotype Corporation 1991-1995. All rights reserved. Monotype Corsiva!" is a trademark of The Monotype Corporation which may be registered in certain jurisdictions.
+EncodingScheme FontSpecific
+FamilyName Monotype Corsiva
+Weight Regular
+Version Version 2.35
+Characters 669
+ItalicAngle -15.1
+Ascender 790
+Descender -303
+UnderlineThickness 50
+UnderlinePosition -120
+IsFixedPitch false
+FontBBox -240 -307 1159 913
+StartCharMetrics 703
+C 0 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 1 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 2 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 3 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 4 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 5 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 6 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 7 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 8 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 9 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 10 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 11 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 12 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 13 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 14 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 15 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 16 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 17 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 18 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 19 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 20 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 21 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 22 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 23 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 24 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 25 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 26 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 27 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 28 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 29 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 30 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 31 ; WX 750 ; N .notdef ; B 125 0 625 625 ;
+C 32 ; WX 220 ; N space ; B 132 -13 318 590 ;
+C 33 ; WX 280 ; N exclam ; B 132 -13 318 590 ;
+C 34 ; WX 220 ; N quotedbl ; B 147 321 378 585 ;
+C 35 ; WX 680 ; N numbersign ; B 168 13 705 575 ;
+C 36 ; WX 440 ; N dollar ; B 85 -131 488 650 ;
+C 37 ; WX 680 ; N percent ; B 162 -7 681 585 ;
+C 38 ; WX 780 ; N ampersand ; B 114 -68 873 688 ;
+C 39 ; WX 160 ; N quotesingle ; B 180 321 285 585 ;
+C 40 ; WX 260 ; N parenleft ; B 91 -254 474 689 ;
+C 41 ; WX 220 ; N parenright ; B -71 -254 313 689 ;
+C 42 ; WX 420 ; N asterisk ; B 137 362 482 690 ;
+C 43 ; WX 520 ; N plus ; B 134 69 566 502 ;
+C 44 ; WX 220 ; N comma ; B 18 -152 172 103 ;
+C 45 ; WX 280 ; N hyphen ; B 82 176 321 225 ;
+C 46 ; WX 220 ; N period ; B 73 -13 171 105 ;
+C 47 ; WX 340 ; N slash ; B -11 -188 523 676 ;
+C 48 ; WX 440 ; N zero ; B 102 -14 498 585 ;
+C 49 ; WX 440 ; N one ; B 103 -11 434 590 ;
+C 50 ; WX 440 ; N two ; B 74 -13 479 586 ;
+C 51 ; WX 440 ; N three ; B 72 -16 444 584 ;
+C 52 ; WX 440 ; N four ; B 75 -15 477 588 ;
+C 53 ; WX 440 ; N five ; B 65 -13 524 598 ;
+C 54 ; WX 440 ; N six ; B 121 -13 534 586 ;
+C 55 ; WX 440 ; N seven ; B 146 -22 550 579 ;
+C 56 ; WX 440 ; N eight ; B 96 -13 504 585 ;
+C 57 ; WX 440 ; N nine ; B 72 -14 484 586 ;
+C 58 ; WX 260 ; N colon ; B 73 -13 241 406 ;
+C 59 ; WX 240 ; N semicolon ; B 17 -152 247 406 ;
+C 60 ; WX 520 ; N less ; B 108 60 544 506 ;
+C 61 ; WX 520 ; N equal ; B 134 176 566 398 ;
+C 62 ; WX 520 ; N greater ; B 162 60 598 506 ;
+C 63 ; WX 380 ; N question ; B 87 -13 408 585 ;
+C 64 ; WX 700 ; N at ; B 126 -16 727 590 ;
+C 65 ; WX 620 ; N A ; B -51 -113 634 616 ;
+C 66 ; WX 600 ; N B ; B 67 -8 632 590 ;
+C 67 ; WX 520 ; N C ; B 96 -96 613 586 ;
+C 68 ; WX 700 ; N D ; B 69 -7 752 588 ;
+C 69 ; WX 620 ; N E ; B 66 -17 666 583 ;
+C 70 ; WX 580 ; N F ; B 112 -9 695 585 ;
+C 71 ; WX 620 ; N G ; B 126 -257 677 585 ;
+C 72 ; WX 680 ; N H ; B 21 -31 887 637 ;
+C 73 ; WX 380 ; N I ; B 67 -9 474 578 ;
+C 74 ; WX 400 ; N J ; B 0 -134 490 577 ;
+C 75 ; WX 660 ; N K ; B 87 -152 800 579 ;
+C 76 ; WX 580 ; N L ; B 48 -19 589 588 ;
+C 77 ; WX 840 ; N M ; B 63 -34 886 614 ;
+C 78 ; WX 700 ; N N ; B 43 -53 906 605 ;
+C 79 ; WX 600 ; N O ; B 103 -13 654 584 ;
+C 80 ; WX 540 ; N P ; B 73 -11 665 585 ;
+C 81 ; WX 600 ; N Q ; B 103 -

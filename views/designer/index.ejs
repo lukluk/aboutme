@@ -1,0 +1,408 @@
+<script type="text/javascript">
+$.fn.slideFadeToggle = function(easing, callback) {
+    return this.animate({
+        opacity: 'toggle',
+        height: 'toggle'
+    }, "fast", easing, callback);
+};
+</script>
+<link rel="stylesheet" type="text/css" href="css/jquery.Jcrop.min.css" />
+<style type="text/css">
+<% _.each(cssfonts, function (font) { %>
+                        <%= font %>
+    <% }) %>
+#toolbox {
+    display: none;
+}
+.page5{
+    position: absolute;
+    z-index: 0;
+    top: 125px;
+    width: 365px;
+    right:5px;
+    height: 409px;
+}
+.page5 .popup {
+    
+}
+.page5 .popup .arrow {
+    left: -17px;
+    position: absolute;
+    display: none;
+    width: 20px;
+}
+</style>
+<div class="modal fade bs-example-modal-lg" id="cropimgdlg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      
+    </div>
+  </div>
+</div>
+<div class="design">
+    <div class="navigation">
+        <div class="wrapper">
+
+            <div class="design_business left">
+                <div class="design_bussiness_inner">
+                    <a href="#">Clean Design</a>
+                    <a href="#" class="active">Change the Design</a>
+                </div>
+                <ul class="design_business_opt">
+                    <li>Businesscard(2" × 3.5")</li>
+                    <li>Horizontal</li>
+                </ul>
+                <a href="#" onclick="app.template.save()" class="design_business_next"></a>
+
+            </div>
+            <!--design-->
+            <div class="clear"></div>
+            <!--clear-->
+            <div class="business_main_content">
+                <div class="business_add_img">
+                    <div class="business_add_img_left">
+                        <ul class="images">
+                            <li><a href="#">My Images </a>
+                            </li>
+                            <li><a href="#" class="active">Buy Images</a>
+                            </li>
+                        </ul>
+                        <p class="logged_in">You need to <a style="text-decoration:underline;" href="#">log in</a> to see your account images</p>
+                        <div class="clear"></div>
+                        <div class="crousel_add">
+                            <div class="crousel">
+
+                                <div class="image_view left">
+
+                                    <ul>
+                                        <li class="left">
+                                            <img class="draggable" height="25" width="24" alt="left"  src="images/move_left.png">
+                                        </li>
+                                        <li>
+                                            <img class="draggable" height="50" width="71" alt="img" src="images/slider-img.png">
+                                        </li>
+                                        <li>
+                                            <img class="draggable" height="50" width="71" alt="img" src="images/slider-img.png">
+                                        </li>
+                                        <li>
+                                            <img class="draggable" height="50" width="71" alt="img" src="images/slider-img.png">
+                                        </li>
+                                        <li>
+                                            <img class="draggable" height="50" width="71" alt="img" src="images/slider-img.png">
+                                        </li>
+                                        <li>
+                                            <img height="52" width="73" alt="no_img" src="images/no-image.png">
+                                            <div style="text-align:center" class="text">No Image</div>
+                                        </li>
+                                        <li>
+                                            <img height="52" width="73" alt="no_img" src="images/no-image.png">
+                                            <div style="text-align:center" class="text">No Image</div>
+                                        </li>
+                                        <li>
+                                            <img height="52" width="73" alt="no_img" src="images/no-image.png">
+                                            <div style="text-align:center" class="text">No Image</div>
+
+                                        </li>
+                                        <li>
+                                            <img height="52" width="73" alt="no_img" src="images/no-image.png">
+                                            <div style="text-align:center" class="text">No Image</div>
+
+                                        </li>
+                                        <li>
+                                            <img height="52" width="73" alt="no_img" src="images/no-image.png">
+                                            <div style="text-align:center" class="text">No Image</div>
+
+                                        </li>
+                                        <li class="right">
+                                            <img height="25" width="24" alt="left" src="images/move_right.png">
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                                <!--image_view-->
+                            </div>
+                            <!--crousel-->
+
+                        </div>
+                        <!--crousel_add-->
+                    </div>
+                    <div class="business_add_img_right">
+                        <img src="images/add-image.png">
+                        <span>Add Image
+                            <br>or Graphics</span>
+                    </div>
+
+                </div>
+
+                <div class="clear"></div>
+                <!--clear-->
+                <div class="content" style="margin-top: 30px;">
+                    <h2 class="step">Step 1:<a href="/contact" id="contact" class="selected"> Edit front</a>
+                    </h2>
+                    <div class="canvas_container">
+                        <center>
+                                <div class="cfront canvascon active" style="z-index:1000">
+                                    <canvas id="c" class="canvas droppable" width="<%= canvas.width %>px" height="<%= canvas.height %>px"></canvas>
+                                    <div class="loader"><img src="/img/ajax-loader.gif" width="32px" height="32px"/></div>
+                                </div>
+                                <div class=" cback canvascon">
+                                    <canvas id="c2" class="canvas droppable" width="<%= canvas.width %>px" height="<%= canvas.height %>px"></canvas>
+                                    <div class="loader"><img src="/img/ajax-loader.gif" width="32px" height="32px"/></div>
+                                </div>
+                            
+                        </center><br/>
+                        <center>
+                            <a onclick="app.toolbox.close();app.flip();app.setToggleCanvas(canvas2,canvas);" class='btn btn-default'>
+                            <p class="refresh " style="text-align:center;" >
+                            <span class="refresh">
+                                <img height="39" width="23" alt="refresh" src="images/refresh_img.png">
+                            </span>
+                            <span class="text">flip design</span>
+                            </p>
+                            </a>
+                          
+                    </center>
+<button class="next_button_print" id="print">
+  <center><span class="fancybox  button_next " >Print This Design</span></center>
+                          </button>                                                
+                    </div>
+
+                </div>
+
+            </div>
+
+
+        </div>
+        <!--businness_card-->
+
+
+    </div>
+    <!--button-->
+    <div class="clear"></div>
+    <div class="page5">
+        <div class="popup" id="toolbox">
+            <div class="arrow">
+                <img src="images/popup/left-arrow.png">
+            </div>
+            <div class="dropdown">
+                <div class=" dropdown1 left">
+
+                    <select class="form-control group group-text" id="fontfamily"  style="width:200px" onchange="app.selected.set('fontFamily',this.value);">
+                        <option value="Default">Select Font</option>
+                        <% _.each(fonts, function (font) { %>
+                        <option value="<%= font %>"><%= font %></option>
+    <% }) %>
+                    </select>
+
+                </div>
+                <div class=" dropdown1 left">
+                    <select class="form-control group group-text"  id="fontsize"  onchange="app.selected.set('fontSize',this.value);updateToolbox();">
+<% _.each(fontsize, function (font) { %>
+                        <option value="<%= font %>"><%= font %></option>
+    <% }) %>       
+                        
+
+
+                    </select>
+
+                </div>
+                <div class=" dropdown1 left" style="width: 50px;margin-left:5px;" id="fontColor">
+                    <input type="text" value="#faa" id="color" class="pick-a-color" onchange="app.selected.set('fill',this.value);">
+                </div>
+                <br/>
+                <div class="textedit">
+                    <textarea id="textedit" class="form-control"></textarea>
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="desgin_text">
+                <div class="add_text left">
+                    <div class="button right light">
+                        <button type="button" class="add_text mydropdown" dropdown='shapesOpt'>Add Shape</button>
+                    </div>
+                    <div class="mydropcon box" id="shapesOpt">
+                    	<ul class="mydrop">
+	                    	<li><a onclick="app.create.rect();updateToolbox();">Rectangle</a></li>
+	                    	<li><a onclick="app.create.circle();updateToolbox();">Circle</a></li>
+	                    	<li><a onclick="app.create.triangle();updateToolbox();">Triangle</a></li>
+                    	</ul>
+                    </div>
+                </div>
+                <div class="add_shape left">
+                    <div class="button right light">
+                        <button type="button" class="add_shape" onclick="app.create.text();updateToolbox();">Add Text</button>
+                    </div>
+                </div>
+
+            </div>
+            <!--design_text-->
+            <div class="align_style " >
+                <div class="align left group group-text"  >
+                    <div class="btn-toolbar" role="toolbar">
+                          <div class="btn-group" id="textalign">
+                            <button onclick="app.selected.set('textAlign','left');" id="textAlign_left" type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-left"></span></button>
+                            <button onclick="app.selected.set('textAlign','center');" id="textAlign_center" type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-center"></span></button>
+                            <button onclick="app.selected.set('textAlign','right');" id="textAlign_right" type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-right"></span></button>
+                            <button onclick="app.selected.set('textAlign','justify');" id="textAlign_justify" type="button" class="btn btn-default"><span class="glyphicon glyphicon-align-justify"></span></button>
+                          </div>
+                        </div>
+                    <!--left-->
+                </div>
+                <!--align-->
+                <div class="style left group group-text" >
+                    <div class="btn-group" id="fontstyle">
+                        <a class="btn btn-default " onclick="app.selected.toggle('fontWeight','bold','normal');" id="fontStyle_bold"  data-edit="bold" title="Bold (Ctrl/Cmd+B)"><i class="fa fa-bold"></i></a>
+                        <a class="btn btn-default" onclick="app.selected.toggle('fontStyle','italic','normal');" id="fontStyle_italic" data-edit="italic" title="Italic (Ctrl/Cmd+I)"><i class="fa fa-italic"></i></a>
+                        <a class="btn btn-default" onclick="app.selected.toggle('textDecoration','line-through','');" id="fontStyle_line-through" data-edit="strikethrough" title="Strikethrough"><i class="fa fa-strikethrough"></i></a>
+                        <a class="btn btn-default"onclick="app.selected.toggle('textDecoration','underline','');" id="fontStyle_underline" data-edit="underline" title="Underline (Ctrl/Cmd+U)"><i class="fa fa-underline"></i></a>
+                      </div>
+                      <div class="clear"></div>
+                    <!--clear-->
+                </div>
+                <!--style-->
+                <div class="clear"></div>
+                <!--clear-->
+                <div class="text_shape"></div>
+                <!--text_shapge-->
+<div class="pop form-control" id="rotatedlg" style="top:230px"  >
+  
+        <input class="knob" data-width="150" data-cursor=true data-fgColor="#222222" data-thickness=.3 value="0" id="rot" data-min="0" data-max="360" >
+  </div>                
+<div class="pop form-control" id="borderdlg" style="top:300px;height:120px;width:195px" >
+  <br/>
+  <div class="left"><input type="text" value="" id="bordercolor" class="select-a-color"  onchange="app.selected.set('stroke',this.value);"></div>
+  
+  <div class="left">
+        <div class="input-group " style="width: 120px;">
+          <span class="input-group-btn">
+              <button type="button" class="btn btn-default btn-number" disabled="disabled" data-type="minus" data-field="quant[1]">
+                  <span class="glyphicon glyphicon-minus"></span>
+              </button>
+          </span>
+          <input type="text" name="quant[1]" class="form-control input-number" value="1" min="0" max="9999" id="border" onchange="app.selected.set('strokeWidth',this.value);">
+          <span class="input-group-btn">
+              <button type="button" class="btn btn-default btn-number" data-type="plus" data-field="quant[1]">
+                  <span class="glyphicon glyphicon-plus"></span>
+              </button>
+          </span>
+      </div></div><br/><br/>
+      <center><butotn class="close-pop btn btn-default">OK</button></center>
+  </div>                  
+                <div class="action_one ">
+                    <!--left-->
+                    
+                    <div class="left">
+                        <button class="margintop btn btn-default group group-object" onclick="app.toolbox.rotate();"><i class="fa fa-rotate-right "></i></button>
+                        
+                    </div>
+
+                    <div class="left">
+                        <button class="margintop btn btn-default group group-object" onclick="app.selected.clone();"><i class="fa fa-copy "></i></button>
+                    </div>
+                    <!--left-->
+                    <div class="left">
+                        <button class="margintop btn btn-default group group-object" onclick="app.selected.delete();"><i class="fa fa-times-circle "></i></button>
+                    </div>
+                    <!--left-->
+                    <div class="left">
+                        <button class="margintop btn btn-default group  group-image" onclick="app.selected.crop();"><i class="fa fa-crop "></i></button>
+                    </div>
+                    <div class="left">
+                        <button class="margintop btn btn-default " id="undo" onclick="undo()"><i class="fa fa-undo "></i></button>
+                    </div>
+
+                    <div class="left">
+                        <button class="margintop btn btn-default" id="reundo" onclick="goredo()"><i class="fa fa-repeat "></i></button>
+                    </div>
+                    
+                    <div class="left">
+                        <button class="margintop btn btn-default" id="zoomin" onclick="app.zoom.in()"><i class="fa fa-search-plus "></i></button>
+                    </div>
+                    <div class="left">
+                        <button class="margintop btn btn-default" id="zoomout" onclick="app.zoom.out()"><i class="fa fa-search-minus "></i></button>
+                    </div>                    
+                    <!--left-->
+                    <div class="clear"></div>
+                    
+                    <div class="left">
+                        <button class="big btn btn-default group group-shape group-svg " onclick="app.toolbox.border();"><center><div class="setrule"></div><small>border <div class="up">width</div> </small></center></button>
+                    </div>
+                    
+                    <!--left-->
+                
+                    <!--clear-->
+                
+
+                    <!--left-->
+                    <div class="left">
+                        <div style="width:1px;height:1px;opacity:0"><input type="hidden" id="fill" class="pick-a-color" onchange="if(app.selected.data().type=='i-text' || app.selected.data().type=='text'){app.selected.set('backgroundColor',this.value); }else{ app.selected.set('fill',this.value);}"/></div>
+                        <button class="big btn btn-default group group-shape group-text group-svg " id="fillbtn"><center><div class="setfill"></div>color</center></button>
+                    </div>
+                    <div class="left">
+                        <button class="big btn btn-default group group-object" onclick="app.selected.makeBackground()"><center><div class="setb"></div><small>make it <div class="up" >background</div></small></center></button>
+                    </div>                    
+                    <div class="left">
+                        <button class="big btn btn-default group group-object" onclick="centeraligngroup();samealigngroup();"><center><div class="setarrange"></div>arrange</center></button>
+                    </div>
+
+                    <!--left-->
+                    
+                    <div class="clear"></div>
+                    <!--left-->
+                    <!--left-->
+                    
+
+                    </center>
+                    <div class="clear"></div>
+                    <!--clear-->
+                </div>
+                <!--action_one-->
+                <hr>
+                <div class=" right">
+                    <button type="button" class="done_button light" onclick="app.toolbox.close();"></button>
+                </div>
+            </div>
+
+
+            <div class="clear"></div>
+
+
+        </div>
+        <!--popup-->
+    </div>
+    <!--page5-->
+    <script type="text/javascript">
+        
+
+    </script>
+
+    <script type="text/javascript" src="js/fabric.min.js"></script>
+    <script type="text/javascript" src="js/fabricjs_svg.js"></script>
+    
+    <script type="text/javascript" src="js/fabricjs_copypaste.js"></script>
+    <script type="text/javascript" src="js/fabricjs_align.js"></script>
+    <script type="text/javascript" src="js/fabricjs_undo.js"></script>
+    
+    
+    <script type="text/javascript" src="js/appc.js"></script>
+    <script type="text/javascript" src="js/appc_selected.js"></script>
+
+    <script type="text/javascript" src="js/appc_zoom.js"></script>
+    <script type="text/javascript" src="js/appc_event.js"></script>
+    <script type="text/javascript" src="js/appc_template.js"></script>
+
+    <script type="text/javascript" src="js/cufon.js"></script>
+    <script type="text/javascript" src="js/jquery.knob.js"></script>
+    <script src='js/spectrum.js'></script>
+    
+    <script src='js/jquery.Jcrop.min.js'></script>
+    <script type="text/javascript" src="js/jquery-ui-1.10.4.custom.min.js"></script>    
+    <script type="text/javascript" src="js/jquery_mydropdown.js"></script>    
+    <script type="text/javascript" src="js/jquery.flippy.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
+    <script type="text/javascript" src="js/application.js"></script>
+
+
+</div>
+<!-- Modal -->

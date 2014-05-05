@@ -1,4 +1,2 @@
-aboutme
-=======
-
-this site about lukluk 
+# pop
+### a Sails application

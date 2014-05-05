@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <meta http-equiv="x-ua-compatible" content="IE=10">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+    <title>
+        <%- title %>
+    </title>
+    <link rel="stylesheet" href="css/1bootstrap.min.css">    
+    <link rel='stylesheet' href='css/spectrum.css' />
+    
+    
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css"/>
+    <script type="text/javascript" src="js/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+    
+</head>
+
+<body>
+    <div class="header-top">
+        <div class="wrapper">
+            <div class="search left">
+                <span>
+                    <input type="text" name="search" placeholder="Search" />
+                </span>
+            </div>
+            <!--search-->
+            <div class="support left">
+                <div class="left">Support</div>
+                <div class="left">
+                    <img src="images/phone_icon.png" width="26" height="28" alt="phone" />
+                </div>
+                <div class="left">
+                    <span>800-622-2992</span>
+                </div>
+            </div>
+            <!--support-->
+            <div class="video left">
+                <div class="left">
+                    <img src="images/video-icon.png" width="32" height="31" alt="video" />
+                </div>
+                <div class="left video_text">Video Tutorials</div>
+                <!--left-->
+            </div>
+            <!--auth-->
+            <div class="auth right">
+                <span>Login</span>|
+                <span>Signup</span>
+            </div>
+            <!--auth-->
+        </div>
+        <!--wrapper-->
+        <div class="clear"></div>
+    </div>
+    <div class="wrapper">
+        <div class="header">
+            <div class="menu-logo">
+                <div class="logo left">
+                    <img src="images/logo.png" width="195" height="48" alt="logo" />
+                </div>
+                <!--logo-->
+                <div class="right">
+                    <nav id="main-menu">
+                        <ul class="nav-bar">
+                            <li class="nav-button-home">
+                                <a href="/">Business Card</a>
+                            </li>
+                            <li class="Marketing">
+                                <a href="#">Marketing Products</a>
+                            </li>
+                            <li class="Stationery">
+                                <a href="#">Stationery Items</a>
+                            </li>
+                            <li class="Stickers">
+                                <a href="/">Stickers</a>
+                            </li>
+                            <li class="Format">
+                                <a href="#">Large Format Printing</a>
+                            </li>
+                            <li class="demand">
+                                <a href="#">On demand Printing</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <!--right-->
+                <div class="clear"></div>
+                <div class="logo"></div>
+                <!--logo-->
+            </div>
+            <!--menu-->
+        </div>
+        <!--header-->
+    </div>    
+    <%- body %>
+        <!-- Bring in the socket.io client -->
+        <script type="text/javascript" src="/js/socket.io.js"></script>
+        <!-- then beef it up with some convenience logic for talking to Sails.js -->
+
+        <script type="text/javascript" src="/js/sails.io.js"></script>
+        <!-- listen on socket.io for incoming messages -->
+
+        <script type="text/javascript" src="/js/app.js"></script>
+        <!-- Your scripts here? -->
+
+        <!-- Your scripts here? -->
+        <div class="footer footer_uppper">
+            <div class="footer_wrapper">
+                <div class="footer_menu">
+                    <ul>
+                        <li>Business Card Printing</li>
+                        <li>Online Printing</li>
+                        <li>Brochure Printing</li>
+                        <li>Graphic Design</li>
+                        <li class="last">Flyer Printing</li>
+                    </ul>
+                </div>
+                <!--footer_menu-->
+                <div class="clear"></div>
+                <!--clear-->
+            </div>
+            <!--footer-wrapper-->
+        </div>
+        <div class="footer footer_lower">
+            <div class="footer_wrapper">
+                <div class="footer_text">
+                    <ul class="nav-bar">
+                        <li>© Webstar Printing LLC</li>
+                        <li>Term Of Use</li>
+                        <li>Privacy Policy</li>
+                        <li>Refund Policy</li>
+                        <li>Our guarantee</li>
+                        <li>Site map</li>
+                        <li class="last">About Us</li>
+                    </ul>
+                </div>
+                <!--footer_text-->
+                <div class="clear"></div>
+                <!--clear-->
+                <div class="live_chat">
+                    <img src="images/chat_online.png" width="166" height="39" alt="chat" />
+                </div>
+                <!--live_chat-->
+                <div class="clear"></div>
+                <!--clear-->
+            </div>
+            <!--footer-wrapper-->
+        </div>
+        <!-- Your scripts here? -->
+</body>
+
+</html>

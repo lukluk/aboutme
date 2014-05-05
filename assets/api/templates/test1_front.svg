@@ -1,0 +1,93 @@
+<?xml version="1.0"?>
+<svg xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns="http://www.w3.org/2000/svg" xmlns:cc="http://creativecommons.org/ns#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:svg="http://www.w3.org/2000/svg" id="svg12557" viewBox="0 0 744.09 1052.4">
+  <defs id="defs12559">
+    <clipPath id="clipPath7728" clipPathUnits="userSpaceOnUse">
+      <path id="path7730" d="m410.36 182.2c154.3 14.31 275.35 147.79 275.35 310.16 0 171.91-135.68 311.43-302.85 311.43-159.31 0-290.02-126.7-301.97-287.38" fill-rule="evenodd" stroke="#000" stroke-width="1px" fill="#ad004d"/>
+    </clipPath>
+    <filter id="filter5441" y="-.09808" width="1.204" height="1.1962" x="-.102">
+      <feGaussianBlur id="feGaussianBlur5443" stdDeviation="26.6625"/>
+    </filter>
+    <clipPath id="clipPath7732" clipPathUnits="userSpaceOnUse">
+      <path id="path7734" d="m410.36 182.2c154.3 14.31 275.35 147.79 275.35 310.16 0 171.91-135.68 311.43-302.85 311.43-159.31 0-290.02-126.7-301.97-287.38" fill-rule="evenodd" stroke="#000" stroke-width="1px" fill="#ad004d"/>
+    </clipPath>
+    <clipPath id="clipPath7736" clipPathUnits="userSpaceOnUse">
+      <path id="path7738" d="m410.36 182.2c154.3 14.31 275.35 147.79 275.35 310.16 0 171.91-135.68 311.43-302.85 311.43-159.31 0-290.02-126.7-301.97-287.38" fill-rule="evenodd" stroke="#000" stroke-width="1px" fill="#ad004d"/>
+    </clipPath>
+    <clipPath id="clipPath7740" clipPathUnits="userSpaceOnUse">
+      <path id="path7742" d="m410.36 182.2c154.3 14.31 275.35 147.79 275.35 310.16 0 171.91-135.68 311.43-302.85 311.43-159.31 0-290.02-126.7-301.97-287.38" fill-rule="evenodd" stroke="#000" stroke-width="1px" fill="#ad004d"/>
+    </clipPath>
+    <filter id="filter19752" y="-.34753" width="1.705" height="1.6951" x="-.35251">
+      <feGaussianBlur id="feGaussianBlur19754" stdDeviation="58.246249"/>
+    </filter>
+    <filter id="filter20731" y="-.34753" width="1.705" height="1.6951" x="-.35251">
+      <feGaussianBlur id="feGaussianBlur20733" stdDeviation="58.246249"/>
+    </filter>
+  </defs>
+  <g id="layer1">
+    <g id="g2433" transform="translate(0,80)">
+      <path id="path19756" opacity=".5" d="m409.47 180.93c0.59 7.94 0.89 15.96 0.89 24.05 0 171.91-135.68 311.43-302.86 311.43-9.269 0-18.442-0.43-27.5-1.27" stroke-opacity="0" fill-rule="evenodd" clip-path="url(#clipPath7736)" transform="matrix(-1 0 0 -1 534.54 698.77)" filter="url(#filter20731)"/>
+      <path id="path3146" d="m410.36 182.2c154.3 14.31 275.35 147.79 275.35 310.16 0 171.91-135.68 311.43-302.85 311.43-159.31 0-290.02-126.7-301.97-287.38" stroke-opacity="0" clip-path="url(#clipPath7740)" fill-rule="evenodd" transform="translate(-20.708 -57.837)" fill="#ad004d"/>
+      <path id="path12620" d="m389.96 124.43l-21.16 21.47 1.22 279.66 0.68 0.75-0.5-1.6 1.04 1.19 0.84-0.66 69.12-291.4c-16.57-4.59-33.68-7.78-51.24-9.41zm157.24 63.44l-171.93 234.97 229.12-175.5c-16.39-22.36-35.63-42.37-57.19-59.47zm-261.4 42.22l-47.88 48.53 130.54 145.22-82.66-193.75zm-106.47 107.97l-55.87 56.72 243.84 31.71-187.97-88.43zm475.97 16.97l-278.53 72.46 286.15 46.16c1.56-12.79 2.38-25.84 2.38-39.06 0-27.5-3.49-54.17-10-79.56zm-283.81 73.84l-1.97 0.5-194.69 249.62c20 16.26 42.04 29.98 65.66 40.69l131.28-289.97-0.28-0.84zm-5.16 0.78l-297.31 82.16c6.062 24.41 14.91 47.67 26.216 69.4l270.78-151.31 0.31-0.25zm8.41 0.41l195.34 231.15c22.16-21.48 41.2-46.35 56.28-73.81l-251.62-157.34zm-2.25 1.9l-8.25 314.07c35.28-0.21 69.14-6.66 100.59-18.29l-92.34-295.78z" fill="#95133d" stroke-opacity="0" fill-rule="evenodd"/>
+      <g id="g2427" font-size="100px" font-family="Avant_G-Bold" transform="matrix(1.1548 -.74633 .74633 1.1548 -532.12 4.3692)" fill="#f2f2f2">
+        <text id="text7744" xml:space="preserve" transform="matrix(.73452 .73875 -.67682 .68072 0 0)" y="191.73486" x="539.95526" line-height="125%">
+          <tspan id="tspan7748" font-size="100px" line-height="125%" y="191.73486" x="539.95526" font-family="Avant_G-Bold" fill="#f2f2f2">LORUM</tspan>
+        </text>
+        <text id="text2423" xml:space="preserve" transform="matrix(.73452 .73875 -.67682 .68072 0 0)" y="263.18683" x="539.06708" line-height="125%">
+          <tspan id="tspan2425" font-size="100px" line-height="125%" y="263.18683" x="539.06708" font-family="Avant_G-Bold" fill="#f2f2f2">IPSUM</tspan>
+        </text>
+      </g>
+      <path id="path2160" opacity=".75" d="m409.47 180.93c0.59 7.94 0.89 15.96 0.89 24.05 0 171.91-135.68 311.43-302.86 311.43-9.269 0-18.442-0.43-27.5-1.27" stroke-opacity="0" fill-rule="evenodd" clip-path="url(#clipPath7736)" transform="translate(-20.708 -57.837)" filter="url(#filter19752)"/>
+      <path id="path4119" opacity=".5" d="m585.62 261.09c52.08 55.94 84.1 131.79 84.1 215.29 0 171.9-135.7 311.4-302.88 311.4-78.05 0-149.21-30.41-202.93-80.34 55.15 59.35 132.86 96.34 218.93 96.34 167.18 0 302.88-139.5 302.88-311.4 0-91.75-38.65-174.28-100.1-231.29z" clip-path="url(#clipPath7732)" fill-rule="evenodd" transform="translate(-20.708 -57.837)" filter="url(#filter5441)" stroke="#000" stroke-width="1px"/>
+      <path id="path5445" d="m409.47 180.93c0.59 7.94 0.89 15.96 0.89 24.05 0 171.91-135.68 311.43-302.86 311.43-9.269 0-18.442-0.43-27.5-1.27" stroke-opacity="0" clip-path="url(#clipPath7728)" fill-rule="evenodd" transform="translate(-20.708 -57.837)" fill="#ad004d"/>
+      <flowRoot id="flowRoot2413" xml:space="preserve" font-family="Bitstream Vera Sans" font-size="40px" fill="#000000">
+        <flowRegion id="flowRegion2415">
+          <rect id="rect2417" y="385.66" x="311.13" width="127.28" height="167.69"/>
+        </flowRegion>
+        <flowPara id="flowPara2419"/>
+      </flowRoot>
+    </g>
+  </g>
+  <metadata>
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+        <cc:license rdf:resource="http://creativecommons.org/licenses/publicdomain/"/>
+        <dc:publisher>
+          <cc:Agent rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Sticker SVG(inkscape)</dc:title>
+        <dc:date>2009-11-12T04:04:44</dc:date>
+        <dc:description>just a sticker i created, putting up to many site. what is included is an svg inkscape file, font's might be missing on your machine, buy text can be changed by ungrouping the objevt</dc:description>
+        <dc:source>http://openclipart.org/detail/28156/sticker-svg(inkscape)-by-calgarc</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>calgarc</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>clip art</rdf:li>
+            <rdf:li>clipart</rdf:li>
+            <rdf:li>how i did it</rdf:li>
+            <rdf:li>image</rdf:li>
+            <rdf:li>media</rdf:li>
+            <rdf:li>public domain</rdf:li>
+            <rdf:li>red</rdf:li>
+            <rdf:li>sticker</rdf:li>
+            <rdf:li>svg</rdf:li>
+            <rdf:li>unchecked</rdf:li>
+            <rdf:li>vector</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Reproduction"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#Distribution"/>
+        <cc:permits rdf:resource="http://creativecommons.org/ns#DerivativeWorks"/>
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>
