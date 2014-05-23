@@ -1,2 +1,0 @@
-# pop
-### a Sails application
